@@ -1,0 +1,5 @@
+*.tilt
+*.tilt.dat
+*.dat 
+
+!models/*.tilt
