@@ -1,5 +1,11 @@
 # Scripts to download and process Tilt Brush models from Poly
 
+**NOTE.** You need to set up a Google API Key with permission to access the Poly API first. Please see instructions here: https://developers.google.com/poly/develop/api.
+
+Once you have set up the key, set an environment variable named `POLY_API_KEY` with your API Key as the value.
+
+## How to use
+
 `poly_download_tilt`: Download a Tilt Brush model from Poly. Usage:
 
     python poly_download_tilt.py <assetID> <download_filename>
